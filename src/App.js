@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Pricing from './components/Pricing';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
+import './animations/Animation.js';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <div className="body-container">
         <Header></Header>
         <Pricing></Pricing>
-        {/* <Faq></Faq> */}
+        <Faq></Faq>
         <Footer></Footer>
+        
       </div>
     </Fragment>
     

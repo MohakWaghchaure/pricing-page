@@ -16,7 +16,7 @@ function Footer(){
                                 <div className='logo'>LOGO</div>
                                 <div className='text'>Subscribe to stay up-to-date with the latest releases</div>
                                 <div className='email-wrapper'>
-                                    <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email id" />
+                                    <input type="email" className="input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email id" />
                                     <button className='submit-btn'></button>
                                 </div>
                                 <div className='copyright-text'>©2024 All right reserved</div>

@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
-import Faq from './Faq';
 import Circles from './Circles';
- 
+
 function Pricing(){
     return(
         <Fragment>
@@ -11,6 +10,7 @@ function Pricing(){
                     <div className='pricing-hero-section'>
                         <div className='content-wrapper'>
                             <h1>Pricing plans for every need</h1>
+                            <div className='sub-text'>Bring customer data to every business decision.</div>
                         </div>
                     </div>
                     <div className='pricing-cards'>
