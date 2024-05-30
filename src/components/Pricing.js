@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import Faq from './Faq';
 import Circles from './Circles';
  
 function Pricing(){
@@ -112,7 +113,9 @@ function Pricing(){
                                 <button className='btn'>Contact us</button>
                             </div>
                         </div>
+                        <div className='started-image'></div>
                     </div>
+                    
                 </div>
             </div>
         </Fragment>
