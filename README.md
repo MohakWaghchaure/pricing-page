@@ -1,0 +1,2 @@
+# pricing-page
+Pricing page
