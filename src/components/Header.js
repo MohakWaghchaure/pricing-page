@@ -1,6 +1,14 @@
 import { Fragment } from 'react';
  
 function Header(){
+    window.onscroll = function() {
+        let scrollVal = 100;
+        if (window.scrollY >= scrollVal) {
+            document.querySelector(".header-wrapper").classList.add("inverted");
+        } else {
+            document.querySelector(".header-wrapper").classList.remove("inverted");
+        }
+    };
     return(
         <Fragment>
             <div className='header-wrapper fixed-top'>

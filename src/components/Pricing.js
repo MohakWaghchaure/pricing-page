@@ -1,9 +1,11 @@
 import { Fragment } from 'react';
+import Circles from './Circles';
  
 function Pricing(){
     return(
         <Fragment>
             <div className='pricing-wrapper'>
+                <Circles></Circles>
                 <div className='container pricing-container'>
                     <div className='pricing-hero-section'>
                         <div className='content-wrapper'>
@@ -99,6 +101,15 @@ function Pricing(){
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='get-started-wrapper'>
+                        <div className='get-started'>
+                            <div className='title'>Not sure where to start?</div>
+                            <div className='description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                            <div className='btn-wrapper'>
+                                <button className='btn'>Contact us</button>
                             </div>
                         </div>
                     </div>
