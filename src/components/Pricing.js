@@ -128,7 +128,7 @@ function Pricing(){
                                         <div className='title'>Essential</div>
                                         <div className='sub-text'>Lorem Ipsum is simply dummy text</div>
                                         <div className='price-wrap'>
-                                            <div className='price'>$20k</div>
+                                            <div className='price'>$2k</div>
                                             <div className='sm-text'>Billed monthly</div>
                                             <div className='line-bottom'></div>
                                         </div>
@@ -157,7 +157,7 @@ function Pricing(){
                                         <div className='title'>Essential Plus</div>
                                         <div className='sub-text'>Lorem Ipsum is simply dummy text</div>
                                         <div className='price-wrap'>
-                                            <div className='price'>$44k</div>
+                                            <div className='price'>$5k</div>
                                             <div className='sm-text'>Billed monthly</div>
                                             <div className='line-bottom'></div>
                                         </div>
@@ -187,7 +187,7 @@ function Pricing(){
                                         <div className='title'>Enterprise</div>
                                         <div className='sub-text'>Lorem Ipsum is simply dummy text</div>
                                         <div className='price-wrap'>
-                                            <div className='price'>$70k</div>
+                                            <div className='price'>$8k</div>
                                             <div className='sm-text'>Billed monthly</div>
                                             <div className='line-bottom'></div>
                                         </div>
