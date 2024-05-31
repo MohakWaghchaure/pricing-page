@@ -18,7 +18,9 @@ function App() {
         <Pricing></Pricing>
         <Faq></Faq>
         <Footer></Footer>
-        
+        <div className='page-overlay'>
+          Page is not responsive yet, Check this in larger display for better experience
+        </div>
       </div>
     </Fragment>
     

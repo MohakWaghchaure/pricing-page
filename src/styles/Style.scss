@@ -19,8 +19,24 @@ body{
     width: 100%;
     color: $color_4;
     position: relative;
-    @media screen and (max-width: 1200px) {
+    .page-overlay{
+        min-height: 100vh;
+        width: 100%;
+        opacity: 0.9;
+        top: 0%;
+        left: 0%;
+        position: fixed;
+        background-color: $color_6;
+        color: $color_4;
+        z-index: 2000;
+        font-size: 1.5rem;
+        align-items: center;
+        justify-content: center;
         display: none;
+        text-align: center;
+        @media screen and (max-width: 1200px) {
+            display: flex;
+        }
     }
     .header-wrapper{
         background-color: transparent;
